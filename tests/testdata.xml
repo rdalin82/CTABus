@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<bustime-response>
+
+        	<vehicle>
+        		<vid>6782</vid>
+        		<tmstmp>20151121 09:24</tmstmp>
+        		
+	    		<lat>41.96162796020508</lat>
+            	<lon>-87.67376708984375</lon>
+				<hdg>266</hdg>
+        		
+				<pid>7740</pid>
+        		<rt>78</rt>
+        		<des>Harlem</des>
+        		<pdist>9355</pdist>
+            	
+            	
+            	<spd>0</spd>
+            	
+            	
+				
+				<tablockid>78 -406</tablockid>
+				<tatripid>1053161</tatripid>
+				<zone/>  
+            </vehicle>
+
+        	<vehicle>
+        		<vid>6603</vid>
+        		<tmstmp>20151121 09:24</tmstmp>
+        		
+	    		<lat>41.960541574578535</lat>
+            	<lon>-87.76792727018658</lon>
+				<hdg>272</hdg>
+        		
+				<pid>7740</pid>
+        		<rt>78</rt>
+        		<des>Harlem</des>
+        		<pdist>34772</pdist>
+            	
+            	
+            	<spd>0</spd>
+            	
+            	
+				
+				<tablockid>78 -404</tablockid>
+				<tatripid>1053173</tatripid>
+				<zone/>  
+            </vehicle>
+
+        	<vehicle>
+        		<vid>6850</vid>
+        		<tmstmp>20151121 09:24</tmstmp>
+        		
+	    		<lat>41.96049880981445</lat>
+            	<lon>-87.73491668701172</lon>
+				<hdg>86</hdg>
+        		
+				<pid>7743</pid>
+        		<rt>78</rt>
+        		<des>Wilson/Marine</des>
+        		<pdist>27651</pdist>
+            	
+            	
+            	<spd>30</spd>
+            	
+            	
+				
+				<tablockid>78 -403</tablockid>
+				<tatripid>1053152</tatripid>
+				<zone/>  
+            </vehicle>
+
+        	<vehicle>
+        		<vid>6743</vid>
+        		<tmstmp>20151121 09:23</tmstmp>
+        		
+	    		<lat>41.96085288876393</lat>
+            	<lon>-87.72260522060706</lon>
+				<hdg>82</hdg>
+        		
+				<pid>7743</pid>
+        		<rt>78</rt>
+        		<des>Wilson/Marine</des>
+        		<pdist>31071</pdist>
+            	
+            	
+            	<spd>19</spd>
+            	
+            	
+				
+				<tablockid>78 -401</tablockid>
+				<tatripid>1053151</tatripid>
+				<zone/>  
+            </vehicle>
+
+        	<vehicle>
+        		<vid>6447</vid>
+        		<tmstmp>20151121 09:24</tmstmp>
+        		
+	    		<lat>41.96185833333333</lat>
+            	<lon>-87.64746166666667</lon>
+				<hdg>268</hdg>
+        		
+				<pid>7743</pid>
+        		<rt>78</rt>
+        		<des>Wilson/Marine</des>
+        		<pdist>54174</pdist>
+            	
+            	
+            	<spd>0</spd>
+            	
+            	
+				
+				<tablockid>78 -405</tablockid>
+				<tatripid>1053150</tatripid>
+				<zone/>  
+            </vehicle>
+
+		</bustime-response>

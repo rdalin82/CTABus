@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<bustime-response>	
+			
+				<prd>
+					<tmstmp>20160515 09:41</tmstmp>
+					<typ>A</typ>
+					<stpnm>Montrose &amp; Forest Preserve Avenue</stpnm>
+					<stpid>11422</stpid>
+					<vid>6755</vid>
+					
+					 
+					<dstp>13133</dstp>
+					<rt>78</rt>
+					<rtdir>Westbound</rtdir>
+	        		<des>Harlem</des>
+		        	 
+		        	<prdtm>20160515 09:48</prdtm>
+		        	
+		        	<tablockid>78 -403</tablockid>  
+		        	<tatripid>68</tatripid>    
+		        	<zone/>  
+				</prd>			
+
+		</bustime-response>

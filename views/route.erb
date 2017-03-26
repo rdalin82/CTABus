@@ -1,0 +1,9 @@
+<% if !@route.nil? && !@d.nil? %>
+<div class="container">
+		<% if @d.empty? %>
+			<center><em><p>No buses on route <%= @route %> at this time</p></em></center>
+			<center><em><a href="/">Start Over?</a></em></center>
+
+		<% end %>
+</div>
+<% end %> 

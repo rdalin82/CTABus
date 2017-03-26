@@ -1,0 +1,56 @@
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="/jquery-2.1.4.js"></script>
+
+	<!--link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jquerymobile/1.4.3/jquery.mobile.min.css" /-->
+	<!--script src="//ajax.googleapis.com/ajax/libs/jquerymobile/1.4.3/jquery.mobile.min.js"></script-->
+<!-- Latest compiled and minified CSS -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgn7_L4t3Y809aHKvf3Kq6P7E07YQLq-M">
+</script>
+<script type="text/javascript">
+  function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+    infoWindow.setPosition(pos);
+    infoWindow.setContent(browserHasGeolocation ?
+      'Error: The Geolocation service failed.' :
+      'Error: Your browser doesn\'t support geolocation.');
+  }
+</script>
+<script src="/bootstrap.js"></script>
+<link href="/bootstrap.min.css" rel="stylesheet">
+<link href="/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+<link href="/style.css" rel="stylesheet" media="screen">
+</head>
+<body>
+  
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <h2>
+    		  <ul class="nav navbar-nav nav-header">
+            <li><a href="#"  style="color:white;">Where is my bus?</a></li>
+            <li class="dropdown"> 
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"  style="color:white;">Menu<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/" >Home</a></button></li>
+                  <li><a href="/about">About</a></button></li>
+                </ul>
+              </li>	
+      		</ul>
+        </h2>
+    
+    
+        
+      </div>
+    </nav>
+  <%= yield%>
+  <script src="/app.min.js"></script>
+
+  <div class="container">
+    <footer>
+      <p>Web Application by Robert Dalin
+      </p>
+  </footer>
+  </div>
+</body>

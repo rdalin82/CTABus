@@ -1,0 +1,4 @@
+*~
+config.rb
+/node_modules/*
+/public/app.min.js

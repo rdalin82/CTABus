@@ -1,0 +1,122 @@
+/* colors from: 
+http://www.colourlovers.com/palette/1200797/A03.200.100.035
+#red "#b03060"
+#orange"#FF930E"
+#yellow "#F2E926"
+#blue "#003B59" 
+#green"#A5D900"
+*/
+
+@media screen and (max-width:2024px){
+	p.homeland {
+	padding: 10px 0;
+	font-size: 16px;
+	}	
+
+	.dropdown-rdalin {
+		height: 30px;
+		width: 90px;
+		font-size: 1.25em;
+		padding: 0 15px 10px 0 ;
+}
+
+}
+@media screen and (max-device-width:800px){
+	html, body {
+		width: auto !important;
+		overflow-x: hidden !important;
+	}
+	p.homeland {
+		/*padding: 20px 0;*/
+		font-size:20px;
+	}	
+
+	.dropdown-rdalin {
+		height: 70px;
+		width: 100%;
+		font-size: 40px;
+		padding: 0 0 10px 0 ;
+	}
+	
+	center h1 {
+	  font-size: 4em;
+	  font-family: Arial sans-serif;
+	}
+	center h2 {
+	  font-size: 3.5em;
+	  font-family: Arial sans-serif;
+	}
+
+}
+
+
+#map {
+	height: 90%;
+	margin: 0 20px;
+}
+p.homeland {
+	margin: -1px 0;
+	/*padding: 10px 0;*/
+	font-size: 16px;
+}	
+
+
+center h1 {
+  /*font-size: 4em;*/
+  font-family: Arial sans-serif;
+}
+center h2 {
+  /*font-size: 3.5em;*/
+  font-family: Arial sans-serif;
+
+}
+
+.homeland{
+	text-align: center;
+}
+
+
+.about {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.inline {
+	display: inline-block;
+}
+
+#Blue {
+	background-color: blue;
+	color:white;
+
+}
+
+#Red {
+	background-color: red;
+	color:white;
+
+
+}
+
+#Orange {
+	background-color: orange;
+	color:black;
+
+
+}
+
+#Yellow {
+	background-color: yellow;
+	color:black;
+
+}
+
+#Green {
+	background-color: green;
+	color: white;
+}
+#tiny {
+	height: 20px;
+	width: 10px;
+}
+

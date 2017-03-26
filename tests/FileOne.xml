@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<bustime-response>	
+			
+				<prd>
+					<tmstmp>20160515 09:41</tmstmp>
+					<typ>A</typ>
+					<stpnm>Montrose &amp; Rockwell</stpnm>
+					<stpid>11381</stpid>
+					<vid>6682</vid>
+					
+					 
+					<dstp>533</dstp>
+					<rt>78</rt>
+					<rtdir>Westbound</rtdir>
+	        		<des>Harlem</des>
+		        	 
+		        	<prdtm>20160515 09:42</prdtm>
+		        	
+		        	<tablockid>78 -402</tablockid>  
+		        	<tatripid>69</tatripid>    
+		        	<zone/>  
+				</prd>			
+
+		</bustime-response>
