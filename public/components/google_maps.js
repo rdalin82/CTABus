@@ -5,7 +5,7 @@ import * as InputActions from "../actions/InputActions";
 
 
 const mapStyle= {
-  height: "80%", 
+  height: "80%",
   "marginLeft": "20px",
   "marginRight": "20px",
 }
@@ -21,7 +21,7 @@ export default class GoogleMaps extends React.Component {
     if(prevProps.route !== "Route" && prevProps.destinations !== ""){
       mapFunctions.clearMarkers()
       mapFunctions.drawVehicles(prevProps.vehicles, this.map)
-    } 
+    }
     else if (prevProps.route !== "Route" && prevProps.destinations === "" ){
       this.loaded = false;
       mapFunctions.clearMarkers()
@@ -29,12 +29,12 @@ export default class GoogleMaps extends React.Component {
 
     }
 
-    return false; 
+    return false;
   }
 
   componentDidMount(){
     this.map = new google.maps.Map(this.refs.map, {
-      center: {lat: this.props.lat, lng: this.props.lng }, 
+      center: {lat: this.props.lat, lng: this.props.lng },
       zoom: 12,
     })
     window.props = this.props
@@ -46,9 +46,6 @@ export default class GoogleMaps extends React.Component {
   }
   componentWillReceiveProps(nextProps){
     if (nextProps.destinations !== this.props.destinations){
-      console.log(nextProps)
-      console.log(this.props)
-      console.log("yo yoy yo yo \t yo")
       clearVehicles()
       getVehicles(nextProps.route, nextProps.destinations)
       mapFunctions.clearMarkers()
