@@ -2,3 +2,4 @@
 config.rb
 /node_modules/*
 /public/app.min.js
+public/jquery-2.1.4.js
