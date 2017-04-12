@@ -13,11 +13,8 @@ require 'redis'
 require 'omniauth'
 require 'omniauth-facebook'
 require 'cta_track'
-require 'pry'
 require './config.rb'
-require './lib/GetPrediction'
-require './lib/RouteRequest'
-require './lib/GetRoute'
+
 register Sinatra::Bootstrap::Assets
 class CTABusTracker < Sinatra::Base
   helpers Sinatra::Cookies
