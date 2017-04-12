@@ -1,4 +1,4 @@
-Travis CI: [![Build Status](https://travis-ci.org/rdalin82/CTABusApp.svg?branch=master)](https://travis-ci.org/rdalin82/CTABusApp)
+[![Build Status](https://travis-ci.org/rdalin82/CTABus.svg?branch=master)](https://travis-ci.org/rdalin82/CTABus)
 
 
 Web app for tracking CTA bus location and Clumping https://rdalin-cta.herokuapp.com/

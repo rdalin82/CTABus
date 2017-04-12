@@ -11,7 +11,7 @@ class MapFunctions{
     infoWindow.setPosition(pos);
     // infoWindow.setContent('you');
     infoWindow.close();
-    var userMarker = new google.maps.Marker ({
+    let userMarker = new google.maps.Marker ({
       position: pos,
       map: map,
       title: "Your Position",
@@ -21,11 +21,11 @@ class MapFunctions{
   }
 
   getDevicePosition(map){
-    var infoWindow = new google.maps.InfoWindow({map: map});
+    let infoWindow = new google.maps.InfoWindow({map: map});
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(function(position){
 
-      var pos;
+      let pos;
       pos = {
         lat: position.coords.latitude,
         lng: position.coords.longitude
@@ -35,7 +35,7 @@ class MapFunctions{
       // infoWindow.setContent('you');
       infoWindow.close();
       // userMarker.setMap(null);
-      var userMarker;
+      let userMarker;
       userMarker = new google.maps.Marker ({
         position: pos,
         map: map,
@@ -53,9 +53,9 @@ class MapFunctions{
   }
 
   drawVehicles(vehicles, map){
-      for (var y in vehicles){
-        var target = vehicles[y];
-        var marker = new google.maps.Marker({
+      for (let y in vehicles){
+        let target = vehicles[y];
+        let marker = new google.maps.Marker({
           position: { lat: target.lat, lng: target.lon },
           map: map,
           title: "bus" + target.vid.toString(),
@@ -68,7 +68,7 @@ class MapFunctions{
       window.markers = this.markers;
     }
     clearMarkers(){
-      for (var i=0; i<this.markers.length; i++){
+      for (let i=0; i<this.markers.length; i++){
         this.markers[i].setMap(null);
       }
       this.markers = new Array();
