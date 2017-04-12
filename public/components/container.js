@@ -37,7 +37,6 @@ export default class Container extends React.Component {
 
   }
   componentDidMount(){
-    console.log("mounted");
 	  this.getRouteList();
   }
 

@@ -39,7 +39,7 @@ export default class GoogleMaps extends React.Component {
     })
     window.props = this.props
     mapFunctions.getDevicePosition(this.map);
-    this.interval = setInterval(this.newVehicles.bind(this), 12000)
+    this.interval = setInterval(this.newVehicles.bind(this), 24000)
 
   }
   componentDidUnMount(){
@@ -65,7 +65,6 @@ export default class GoogleMaps extends React.Component {
     if(this.props.route !== "Route" && this.props.destinations !== ""){
       this.loaded = true
       getVehicles(this.props.route, this.props.destinations)
-      console.log("from new vehicles", this.props)
     }
   }
 
