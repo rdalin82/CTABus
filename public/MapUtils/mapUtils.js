@@ -15,8 +15,8 @@ class MapFunctions{
       position: pos,
       map: map,
       title: "Your Position",
-      icon: '../man.png'
-    });  
+      icon: '../images/man.png'
+    });
     map.panTo(pos);
   }
 
@@ -24,7 +24,7 @@ class MapFunctions{
     var infoWindow = new google.maps.InfoWindow({map: map});
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(function(position){
-      
+
       var pos;
       pos = {
         lat: position.coords.latitude,
@@ -40,8 +40,8 @@ class MapFunctions{
         position: pos,
         map: map,
         title: "Your Position",
-        icon: '../man.png'
-      });    
+        icon: '../images/man.png'
+      });
       map.panTo(pos);
       }, function(){
         handleLocationError(true, infoWindow, map.getCenter());
@@ -56,11 +56,11 @@ class MapFunctions{
       for (var y in vehicles){
         var target = vehicles[y];
         var marker = new google.maps.Marker({
-          position: { lat: target.lat, lng: target.lon }, 
-          map: map, 
+          position: { lat: target.lat, lng: target.lon },
+          map: map,
           title: "bus" + target.vid.toString(),
           icon: {
-            url: '../bus.png'
+            url: '../images/bus.png'
           }
         });
         this.markers.push(marker);
